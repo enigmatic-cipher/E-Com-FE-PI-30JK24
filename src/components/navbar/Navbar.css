@@ -1,0 +1,85 @@
+.navbar {
+  background-color: #caf0f8;
+  height: 6vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  font-weight: bolder;
+  font-size: larger;
+  margin-right: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brand {
+  margin-right: 5px;
+  font-size: x-large;
+}
+
+.search {
+  width: 50vw;
+}
+
+.search-bar {
+  width: 100%;
+  height: 35px;
+  border-style: none;
+  font-size: larger;
+  border-radius: 10px;
+  padding: 3px 20px;
+}
+
+input:focus {
+  outline-color: #90e0ef;
+}
+
+.cart {
+  font-size: larger;
+  width: 60px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 3px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.cart:active {
+  transform: translateY(1px);
+}
+
+.login {
+  font-size: larger;
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  padding: 3px 20px;
+  margin-right: 10%;
+}
+
+.login:active {
+  transform: translateY(1px);
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.login {
+  margin-left: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 5px;
+}

@@ -1,0 +1,58 @@
+.card-container {
+  height: 450px;
+  width: 330px;
+  margin: 2px 2px 2px 2px;
+  border: 2px solid darkgray;
+  border: 1px solid #caf0f8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-container:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+  height: 300px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.cart1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  background-color: #00b4d8;
+  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  background-color: #0077b6;
+  color: white;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.rating {
+  margin-top: 2%;
+}

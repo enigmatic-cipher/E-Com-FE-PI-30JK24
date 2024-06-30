@@ -1,0 +1,8 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5vw;
+  padding: 2% 2% 2% 2%;
+  width: 90vw;
+  height: 87vh;
+}

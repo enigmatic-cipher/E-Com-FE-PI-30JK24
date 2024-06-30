@@ -1,0 +1,93 @@
+.details-container {
+  height: 30vh;
+  width: 60vw;
+  border-style: outset;
+
+  border-radius: 7px;
+  display: flex;
+}
+
+.product-detail-image {
+  height: 100%;
+  width: auto;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.product-info {
+  margin: 1% 1% 1% 1%;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 400;
+  height: 50%;
+}
+
+.group {
+  height: 15%;
+}
+
+.checkout {
+  display: flex;
+  height: 25%;
+  justify-content: space-between;
+}
+
+.checkout-button {
+  height: 50px;
+  width: 150px;
+  background-color: #90e0ef;
+  font-weight: 500;
+  font-size: 600;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.checkout-button:active {
+  transform: translateY(1px);
+}
+
+.checkout-button:hover {
+  background-color: #00b4d8;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.group-button {
+  height: 100%;
+  width: 7%;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #90e0ef;
+  border: none;
+  border-radius: 7px;
+}
+
+.group-button:hover {
+  background-color: #00b4d8;
+}
+
+.group-button:active {
+  transform: translateY(1px);
+}
+
+.item-number {
+  height: 100%;
+  margin-inline: 1%;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  border-color: #90e0ef;
+  border-style: solid;
+  outline: none;
+}

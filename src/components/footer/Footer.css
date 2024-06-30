@@ -1,0 +1,12 @@
+.footer-container {
+  height: 7vh;
+  width: 100vw;
+  background-color: #03045e;
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
