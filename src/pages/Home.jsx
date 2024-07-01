@@ -21,7 +21,7 @@ function Home() {
     setProducts(data.products);
   }, [data]);
 
-  console.log("product", data.products);
+  // console.log("product", data.products);
 
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <div>Something Went Worng</div>;
@@ -34,6 +34,7 @@ function Home() {
           <Card
             key={product.id}
             image={product.images[0]}
+            id={product.id}
             title={product.title}
             price={product.price}
             rating={product.rating}

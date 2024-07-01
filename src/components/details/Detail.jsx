@@ -1,6 +1,11 @@
+import { useSelector } from "react-redux";
 import "./Details.css";
 
 function Detail() {
+  const productID = useSelector((state) => state.product.productID);
+
+  console.log("productID", productID);
+
   return (
     <div className="details-container">
       <div className="product-image">

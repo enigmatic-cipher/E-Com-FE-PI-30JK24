@@ -21,6 +21,9 @@
 
 .cart1 {
   display: flex;
+  padding-top: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
   width: 100%;
   justify-content: space-between;
 }
@@ -51,6 +54,12 @@
 
 .button:active {
   transform: translateY(1px);
+}
+
+.product-details {
+  margin-top: 2%;
+  margin-left: 2%;
+  color: darkslategray;
 }
 
 .rating {
